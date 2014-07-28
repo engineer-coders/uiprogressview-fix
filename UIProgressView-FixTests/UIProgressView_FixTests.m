@@ -2,7 +2,7 @@
 //  UIProgressView_FixTests.m
 //  UIProgressView-FixTests
 //
-//  Created by Ivan Aquino on 7/28/14.
+//  Created by Engineer Coders on 7/28/14.
 //  Copyright (c) 2014 Goggle Inc. All rights reserved.
 //
 

@@ -1,5 +1,5 @@
 //
-//  UPFAppDelegate.h
+//  ECProgressView.h
 //  UIProgressView-Fix
 //
 //  Created by Engineer Coders on 7/28/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UPFAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ECProgressView : UIProgressView
 
 @end

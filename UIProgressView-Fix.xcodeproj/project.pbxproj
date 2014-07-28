@@ -19,6 +19,10 @@
 		A9205008198605F900DFCE33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9204FF0198605F900DFCE33 /* UIKit.framework */; };
 		A9205010198605F900DFCE33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A920500E198605F900DFCE33 /* InfoPlist.strings */; };
 		A9205012198605F900DFCE33 /* UIProgressView_FixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9205011198605F900DFCE33 /* UIProgressView_FixTests.m */; };
+		A920501D198608E100DFCE33 /* ECProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A920501C198608E100DFCE33 /* ECProgressView.m */; };
+		A920501F19860A7200DFCE33 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A920501E19860A7200DFCE33 /* Storyboard.storyboard */; };
+		A920502A198611CA00DFCE33 /* progress-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A9205028198611CA00DFCE33 /* progress-image.png */; };
+		A920502B198611CA00DFCE33 /* track-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A9205029198611CA00DFCE33 /* track-image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,11 @@
 		A920500D198605F900DFCE33 /* UIProgressView-FixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIProgressView-FixTests-Info.plist"; sourceTree = "<group>"; };
 		A920500F198605F900DFCE33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9205011198605F900DFCE33 /* UIProgressView_FixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIProgressView_FixTests.m; sourceTree = "<group>"; };
+		A920501B198608E100DFCE33 /* ECProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECProgressView.h; sourceTree = "<group>"; };
+		A920501C198608E100DFCE33 /* ECProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECProgressView.m; sourceTree = "<group>"; };
+		A920501E19860A7200DFCE33 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A9205028198611CA00DFCE33 /* progress-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-image.png"; sourceTree = "<group>"; };
+		A9205029198611CA00DFCE33 /* track-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "track-image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +116,13 @@
 		A9204FF2198605F900DFCE33 /* UIProgressView-Fix */ = {
 			isa = PBXGroup;
 			children = (
+				A920501E19860A7200DFCE33 /* Storyboard.storyboard */,
 				A9204FFB198605F900DFCE33 /* UPFAppDelegate.h */,
 				A9204FFC198605F900DFCE33 /* UPFAppDelegate.m */,
+				A920501B198608E100DFCE33 /* ECProgressView.h */,
+				A920501C198608E100DFCE33 /* ECProgressView.m */,
+				A9205028198611CA00DFCE33 /* progress-image.png */,
+				A9205029198611CA00DFCE33 /* track-image.png */,
 				A9204FFE198605F900DFCE33 /* Images.xcassets */,
 				A9204FF3198605F900DFCE33 /* Supporting Files */,
 			);
@@ -221,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9204FF7198605F900DFCE33 /* InfoPlist.strings in Resources */,
+				A920502B198611CA00DFCE33 /* track-image.png in Resources */,
 				A9204FFF198605F900DFCE33 /* Images.xcassets in Resources */,
+				A920502A198611CA00DFCE33 /* progress-image.png in Resources */,
+				A920501F19860A7200DFCE33 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A920501D198608E100DFCE33 /* ECProgressView.m in Sources */,
 				A9204FFD198605F900DFCE33 /* UPFAppDelegate.m in Sources */,
 				A9204FF9198605F900DFCE33 /* main.m in Sources */,
 			);
